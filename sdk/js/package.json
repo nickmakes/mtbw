@@ -1,0 +1,35 @@
+{
+  "name" : "mtbw-sdk",
+  "version" : "0.0.0",
+  "description" : "a javascript sdk for mtbw",
+  "main" : "dist/node/src/index.js",
+  "types" : "dist/node/src/index.d.ts",
+  "author" : "nick makes",
+  "repository" : "https://www.github.com/nickmakes/mtbw",
+  "license" : "MIT",
+  "scripts" : {
+    "build" : "npm run build-node && npm run build-web && npm run build-web-dev",
+    "build-node" : "tsc",
+    "build-web" : "webpack --env.prod --mode production",
+    "build-web-dev" : "webpack --env.dev --mode development",
+    "test" : "jest --runInBand",
+    "lint" : "eslint src/ test/"
+  },
+  "dependencies" : {
+    "@types/node" : "^10.3.6",
+    "es6-promise" : "^4.2.5",
+    "fetch-everywhere" : "^1.0.5"
+  },
+  "devDependencies" : {
+    "@types/jest" : "^22.2.3",
+    "eslint-loader" : "^2.0.0",
+    "jest" : "^22.4.3",
+    "ts-jest" : "^22.4.6",
+    "ts-loader" : "^4.3.0",
+    "tslib" : "^1.9.1",
+    "typescript" : "^2.9.1",
+    "webpack" : "^4.8.3",
+    "webpack-cli" : "^2.1.3"
+  },
+  "private" : false
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Configuration status="INFO">
+  <Appenders>
+    <Console name="Console" target="SYSTEM_OUT">
+      <PatternLayout pattern="[%p] %d{ISO8601} - %c{2}:%L - %m%n"/>
+    </Console>
+  </Appenders>
+  <Loggers>
+    <Logger name="com.mmdb" level="debug"/>
+    <Logger name="org.apache.http" level="debug"/>
+    <Logger name="org.springframework.security" level="debug"/>
+    <Root level="info">
+      <AppenderRef ref="Console"/>
+    </Root>
+  </Loggers>
+</Configuration>

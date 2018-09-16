@@ -1,0 +1,2 @@
+FROM mysql:5.6 AS db
+EXPOSE 3306

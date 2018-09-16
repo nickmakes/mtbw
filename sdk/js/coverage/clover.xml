@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1537754698146" clover="3.2.0">
+  <project timestamp="1537754698146" name="All files">
+    <metrics statements="39" coveredstatements="39" conditionals="2" coveredconditionals="2" methods="25" coveredmethods="25" elements="66" coveredelements="66" complexity="0" loc="39" ncloc="39" packages="2" files="4" classes="4">
+      <package name="src">
+        <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <file name="client.ts" path="/Users/mmdb/dev/code/src/github.com/nickmakes/mtbw/sdk/js/src/client.ts">
+          <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+          <line num="1" count="3" type="stmt"/>
+          <line num="2" count="3" type="stmt"/>
+          <line num="4" count="3" type="stmt"/>
+          <line num="6" count="1" type="stmt"/>
+          <line num="12" count="3" type="stmt"/>
+          <line num="13" count="12" type="stmt"/>
+          <line num="15" count="3" type="stmt"/>
+        </file>
+        <file name="index.ts" path="/Users/mmdb/dev/code/src/github.com/nickmakes/mtbw/sdk/js/src/index.ts">
+          <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="1" count="3" type="stmt"/>
+          <line num="2" count="3" type="stmt"/>
+        </file>
+      </package>
+      <package name="src.types">
+        <metrics statements="30" coveredstatements="30" conditionals="2" coveredconditionals="2" methods="22" coveredmethods="22"/>
+        <file name="api.ts" path="/Users/mmdb/dev/code/src/github.com/nickmakes/mtbw/sdk/js/src/types/api.ts">
+          <metrics statements="27" coveredstatements="27" conditionals="2" coveredconditionals="2" methods="22" coveredmethods="22"/>
+          <line num="1" count="3" type="stmt"/>
+          <line num="8" count="52" type="cond" truecount="2" falsecount="0"/>
+          <line num="10" count="42" type="stmt"/>
+          <line num="12" count="21" type="stmt"/>
+          <line num="13" count="21" type="stmt"/>
+          <line num="14" count="1" type="stmt"/>
+          <line num="15" count="3" type="stmt"/>
+          <line num="17" count="6" type="stmt"/>
+          <line num="18" count="1" type="stmt"/>
+          <line num="20" count="10" type="stmt"/>
+          <line num="21" count="10" type="stmt"/>
+          <line num="22" count="2" type="stmt"/>
+          <line num="23" count="1" type="stmt"/>
+          <line num="24" count="1" type="stmt"/>
+          <line num="25" count="6" type="stmt"/>
+          <line num="31" count="21" type="stmt"/>
+          <line num="32" count="21" type="stmt"/>
+          <line num="33" count="1" type="stmt"/>
+          <line num="34" count="3" type="stmt"/>
+          <line num="36" count="6" type="stmt"/>
+          <line num="37" count="1" type="stmt"/>
+          <line num="39" count="10" type="stmt"/>
+          <line num="40" count="10" type="stmt"/>
+          <line num="41" count="2" type="stmt"/>
+          <line num="42" count="1" type="stmt"/>
+          <line num="43" count="1" type="stmt"/>
+          <line num="44" count="6" type="stmt"/>
+        </file>
+        <file name="index.ts" path="/Users/mmdb/dev/code/src/github.com/nickmakes/mtbw/sdk/js/src/types/index.ts">
+          <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+          <line num="1" count="3" type="stmt"/>
+          <line num="2" count="3" type="stmt"/>
+          <line num="3" count="3" type="stmt"/>
+        </file>
+      </package>
+    </metrics>
+  </project>
+</coverage>
